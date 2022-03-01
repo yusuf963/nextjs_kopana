@@ -38,3 +38,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 `npm create-next-app NAMING`
 ## Generate Componnet with help of vs extentions
 `_rfc` 
+##what 
