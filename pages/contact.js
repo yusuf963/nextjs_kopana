@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Layout from "../components/Layout";
 
 const FORM_ENDPOINT = "" // TODO - fill on the later step
 
@@ -20,6 +21,8 @@ const ContactForm = () => {
   }
 
   return (
+    <>
+       <Layout title={'Contact Page | Kopana'} discreption={Layout.defaultProps.discreption} keyword={Layout.defaultProps.keyword}></Layout>
     <form
       action={FORM_ENDPOINT}
       onSubmit={handleSubmit}
@@ -61,6 +64,8 @@ const ContactForm = () => {
         </button>
       </div>
     </form>
+    </>
+
   );
 };
 
