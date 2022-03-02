@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const FORM_ENDPOINT = ""; // TODO - fill on the later step
+const FORM_ENDPOINT = "" // TODO - fill on the later step
 
 const ContactForm = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -14,7 +14,7 @@ const ContactForm = () => {
     return (
       <>
         <div className="text-2xl">Thank you!</div>
-        <div className="text-md">We'll be in touch soon.</div>
+        <div className="text-md">We will be in touch soon.</div>
       </>
     );
   }
